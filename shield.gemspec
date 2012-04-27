@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
     "test/**/*.rb"
   ]
 
-  s.add_dependency "armor"
+  #s.add_dependency "pbkdf2"
+  s.add_dependency "scrypt"
   s.add_development_dependency "cutest"
   s.add_development_dependency "rack-test"
 end
